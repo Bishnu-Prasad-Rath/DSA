@@ -86,31 +86,6 @@ Problems are solved from:
 
 ---
 
-## 📁 Repository Structure
-
-```
-CPP-Questions/
-│
-├── Basics/
-├── Arrays/
-├── Strings/
-├── LinkedList/
-├── Stack/
-├── Queue/
-├── Trees/
-├── Graphs/
-├── Recursion/
-├── DynamicProgramming/
-├── Greedy/
-├── BinarySearch/
-├── SlidingWindow/
-├── BitManipulation/
-├── STL/
-└── README.md
-```
-
----
-
 ## 🛠️ Language Used
 
 - C++
