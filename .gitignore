@@ -1,0 +1,19 @@
+# Ignore executable files
+*.exe
+
+# Ignore object files
+*.o
+*.obj
+
+# Ignore debug symbols
+*.pdb
+
+# Ignore Visual Studio files
+.vs/
+*.VC.db
+
+# Ignore build directories
+build/
+bin/
+Debug/
+Release/
