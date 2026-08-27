@@ -1,3 +1,5 @@
+//Check whether 2 strings are in anagram or not.
+
 #include <iostream>
 #include <string>
 #include <vector>

@@ -1,3 +1,5 @@
+//Check whether a string is in palindrome or not.
+
 #include <iostream>
 #include <string>
 #include <algorithm>
