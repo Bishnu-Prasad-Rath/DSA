@@ -45,7 +45,7 @@ int main() {
     for (int i = 0; i < size2; i++) {
         int value;
         cin >> value;
-        arrY.push_back(value);
+        arr1.push_back(value);
     }
     
     vector<int> result = mergeSortedArray(arrX, arrY);
