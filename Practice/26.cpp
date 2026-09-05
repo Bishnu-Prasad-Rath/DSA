@@ -1,6 +1,7 @@
 //Find the missing and repeating number
 #include <iostream>
 #include <utility>
+#include <vector>
 using namespace std;
 
 pair<int, int> findMissingAndRepeating(vector<int>& arr){
@@ -34,14 +35,16 @@ int main(){
 
     cout << "Enter the elements in this array: ";
 
-    for (int i = 0; i < n - 1; ++i) {
+    for (int i = 0; i < n ; ++i) {
         int value;
         cin >> value;
 
         arr1.push_back(value);
     }
 
-  cout << "The missing and repeating values in this array are : " << findMissingAndRepeating(arr1) << endl;
+     pair<int, int> result = findMissingAndRepeating(arr1);
+   cout << "The missing value is: " << result.first << endl;
+   cout << "The repeating value is: " << result.second << endl;
   
   return 0;
 }
