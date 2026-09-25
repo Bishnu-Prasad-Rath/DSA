@@ -1,16 +1,16 @@
-//Find the missing and repeating number
+// Find the missing and repeating number
 #include <iostream>
 #include <utility>
 #include <vector>
 using namespace std;
 
-pair<int, int> findMissingAndRepeating(vector<int>& arr){
+pair<int, int> findMissingAndRepeating(vector<int> &arr) {
   long long n = arr.size();
-  long long sumN = n * (n+1)/2;
-  long long sumSqN = n * (n+1) * (2*n+1)/6;
+  long long sumN = n * (n + 1) / 2;
+  long long sumSqN = n * (n + 1) * (2 * n + 1) / 6;
   long long sum = 0, sumSq = 0;
 
-  for(int num : arr){
+  for (int num : arr) {
     sum += num;
     sumSq += num * num;
   }
@@ -19,32 +19,32 @@ pair<int, int> findMissingAndRepeating(vector<int>& arr){
   long long val2 = sumSq - sumSqN;
   val2 = val2 / val1;
 
-  int repeating = (val1 + val2)/2;
+  int repeating = (val1 + val2) / 2;
   int missing = val2 - repeating;
-  return {missing,repeating};
+  return {missing, repeating};
 }
 
-int main(){
+int main() {
 
-   cout << "Enter the length of the array: ";
+  cout << "Enter the length of the array: ";
 
-    int n;
-    cin >> n;
+  int n;
+  cin >> n;
 
-    vector<int> arr1;
+  vector<int> arr1;
 
-    cout << "Enter the elements in this array: ";
+  cout << "Enter the elements in this array: ";
 
-    for (int i = 0; i < n ; ++i) {
-        int value;
-        cin >> value;
+  for (int i = 0; i < n; ++i) {
+    int value;
+    cin >> value;
 
-        arr1.push_back(value);
-    }
+    arr1.push_back(value);
+  }
 
-     pair<int, int> result = findMissingAndRepeating(arr1);
-   cout << "The missing value is: " << result.first << endl;
-   cout << "The repeating value is: " << result.second << endl;
-  
+  pair<int, int> result = findMissingAndRepeating(arr1);
+  cout << "The missing value is: " << result.first << endl;
+  cout << "The repeating value is: " << result.second << endl;
+
   return 0;
 }
