@@ -1,0 +1,21 @@
+!SESSION 2026-10-03 16:43:30.174 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=25.0.4.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -data D:\CPP-Questions\Practice\.jdtls-workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-10-03 16:43:32.191
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-10-03 16:43:32.375
+!MESSAGE Started org.eclipse.buildship.core 45ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-10-03 16:43:32.376
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-10-03 16:43:32.592
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2026-10-03 16:43:33.410
+!MESSAGE ProjectRegistryRefreshJob finished 1033ms
